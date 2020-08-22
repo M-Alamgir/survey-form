@@ -12,11 +12,20 @@
 
     <div class="container">
         <div class="side-bar">
+            <div class="logo-box">
+                <img src="img/logo.png" class="logo" alt="music logo">
+            </div>
+            <p class="music">Columbian music</p>
+            <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat cumque, veniam, deserunt hic ratione doloribus consequatur quasi dolores vero aliquam obcaecati quod voluptas natus, quisquam optio expedita sed unde praesentium?</p>
             
+            <div class="offer">
+                <h2 class="offer1">50% off on signup!</h2>
+                <button class="btn-2">Signup now</button>
+            </div>
         </div>
         <div class="main-area">
            <div class="heading">
-               <h1 id="title">Microverse survey form</h1>
+               <h1 id="title">Survey form</h1>
                <p id="description">test</p>
            </div>
 
@@ -31,14 +40,15 @@
                         <label for="email" id="email-label">Enter email</label>
                     </div>
                     <div class="input__number">
-                        <input type="number" id="number" min="1" max="10" placeholder="Enter number" class="input" required>
-                        <label for="number" id="number-label">Enter number</label>
+                        <input type="number" id="number" min="1" max="10" placeholder="Ratings&nbsp; 1 - 10" class="input" required>
+                        <label for="number" id="number-label">Ratings</label>
                     </div>
                     <div class="input__dropdown">
+                        <span>Choose Album</span>
                       <select name="dropdown" id="dropdown">
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
+                        <option value=""></option>
+                        <option value="C">Album1</option>
+                        <option value="C++">Album2</option>
                       </select>
                     </div>
                     <div class="radio">
@@ -49,14 +59,14 @@
                       
                     </div>
                     <div class="check">
-                      <input type="checkbox" name="check1" value="1">
-                      <input type="checkbox" name="check1" value="2">
-                      <input type="checkbox" name="check1" value="3">
+                      <input type="checkbox" name="check1" value="1"><span class="lang">English</span>
+                      <input type="checkbox" name="check1" value="2"><span class="lang">Spanish</span>  
+                      <input type="checkbox" name="check1" value="3"><span class="lang">Urdu</span>
                     </div>
                     <div class="textarea">
-                      <textarea id="textarea1" cols="30" rows="10"></textarea>
+                      <textarea id="textarea1" cols="30" rows="10" placeholder="Type something//"></textarea>
                     </div>
-                    <button id="submit">Submit</button>
+                    <button class="btn" id="submit">Submit &rarr;</button>
                </form>
            </div>
         </div>

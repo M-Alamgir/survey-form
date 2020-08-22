@@ -15,6 +15,7 @@ html {
 }
 
 body {
+    font-size: 1.5rem;
     box-sizing: border-box;
     background-image: linear-gradient(to top right,rgb(67, 88, 208), rgb(199, 80, 194));
     background-size: cover;
@@ -41,7 +42,11 @@ body {
 
 .side-bar {
     width: 30%;
-    background-color: rgb(30, 191, 115) ;
+    background-color: rgb(30, 191, 115);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 /* main-area */
@@ -58,13 +63,22 @@ body {
     display: none;
 }
 
+h1 {
+    text-transform: uppercase;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
 .input{
+    font-size: 1.5rem;
+    font-family: inherit;
     padding: 1rem 1rem;
     width: 25rem;
     margin-bottom: 1rem;
     border:none;
     box-shadow: 0 .6rem .6rem rgba(0,0,0 ,.2);
     display: flex;
+    border-bottom: 1px solid #ccc;
 }
 
 textarea{
@@ -86,6 +100,132 @@ input:focus{
 }
 
 label{
-    color: rgb(119, 119, 119)
+    color: rgb(119, 119, 119);
 }
 
+
+.input__dropdown {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+span {
+    color: #777;
+}
+
+.lang {
+    margin: 0 1rem 0 .5rem;
+}
+
+.check {
+    margin-top: 1rem;
+}
+
+.btn {
+    padding: 1rem 4rem;
+    border: none;
+    border-radius: 100px;
+    background-color: rgb(130, 104, 252);
+    font-size: 1.6rem;
+    color: rgb(231, 231, 231);
+    box-shadow: 0 .6rem 1rem rgba(0,0,0 ,.3);
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+    transition: all .2s;
+    text-transform: uppercase;
+}
+
+.btn:focus,
+.btn:active {
+    outline: none;
+    box-shadow: 0 1rem 1rem rgba(0,0,0 ,.3);
+    transform: translateY(4px);
+}
+
+.btn:hover {
+    transform: translateY(-1px);
+}
+
+.logo {
+    width: 20rem;
+    height: auto;
+}
+
+.logo-box{
+    margin-top: -1rem;
+}
+
+.music {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.para {
+    font-size: 1.4rem;
+    color: rgb(48, 48, 48);
+    padding: 3rem;
+    margin-top: -2rem;
+}
+
+.offer1 {
+    color: rgb(93, 34, 189);
+    text-shadow: 0 .6rem 1rem rgba(0,0,0 ,.3);
+    animation: pulsate 2s infinite;
+    cursor: pointer;
+}
+
+.btn-2 {
+    transform: translateY(1rem);
+    padding: 1rem 4rem;
+    border: none;
+    border-radius: 100px;
+    background-color: rgb(249, 191, 40);
+    font-size: 1.6rem;
+    color: rgb(231, 231, 231);
+    box-shadow: 0 .6rem 1rem rgba(0,0,0 ,.3);
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+    transition: transform .2s;
+    text-transform: uppercase;
+}
+
+.btn-2:focus {
+    outline: none;
+    box-shadow: 0 1rem 1rem rgba(0,0,0 ,.3);
+}
+
+.offer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10rem;
+}
+
+@keyframes pulsate {
+    0% {
+        text-shadow: 0 .6rem 1rem rgba(0,0,0 ,.3);
+        
+    }
+
+    50% {
+        text-shadow: 0 1rem 2rem rgba(0,0,0 ,.5);
+        
+    }
+
+    100% {
+        text-shadow: 0 .6rem 1rem rgba(0,0,0 ,.3);
+        
+    }
+}
+
+input::-webkit-input-placeholder {
+    transform: translateX(70%);
+    transition: all .2s;
+}
+
+input:focus::-webkit-input-placeholder {
+    transform: translateX(10%);
+    opacity: 0;
+}
