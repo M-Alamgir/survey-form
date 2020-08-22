@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Fork Me! FCC: Test Suite Template</title>
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300;400;500;600&display=swap" rel="stylesheet">
   </head>
 
   <body>
@@ -22,17 +23,40 @@
            <div class="form">
                <form action="#" id="survey-form">
                    <div class="input__name">
-                        <input type="text" id="name" placeholder="Enter name" required>
-                        <label for="name" id="name-label">1</label>
+                        <input type="text" id="name" placeholder="Enter name" class="input" required>
+                        <label for="name" id="name-label">Enter name</label>
                     </div>
                     <div class="input__email">
-                        <input type="email" id="email" placeholder="Enter email" required>
-                        <label for="email" id="email-label">1</label>
+                        <input type="email" id="email" placeholder="Enter email" class="input" required>
+                        <label for="email" id="email-label">Enter email</label>
                     </div>
                     <div class="input__number">
-                        <input type="number" id="number" min="1" max="10" placeholder="Enter number" required>
-                        <label for="number" id="number-label">1</label>
+                        <input type="number" id="number" min="1" max="10" placeholder="Enter number" class="input" required>
+                        <label for="number" id="number-label">Enter number</label>
                     </div>
+                    <div class="input__dropdown">
+                      <select name="dropdown" id="dropdown">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                      </select>
+                    </div>
+                    <div class="radio">
+                      <input type="radio" name="radio1" id="radio1" value="1"> 
+                      <label for="radio1">Male</label>
+                      <input type="radio"  name="radio1" value="2">
+                      <label for="radio1">Female</label>
+                      
+                    </div>
+                    <div class="check">
+                      <input type="checkbox" name="check1" value="1">
+                      <input type="checkbox" name="check1" value="2">
+                      <input type="checkbox" name="check1" value="3">
+                    </div>
+                    <div class="textarea">
+                      <textarea id="textarea1" cols="30" rows="10"></textarea>
+                    </div>
+                    <button id="submit">Submit</button>
                </form>
            </div>
         </div>

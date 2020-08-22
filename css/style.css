@@ -19,6 +19,7 @@ body {
     background-image: linear-gradient(to top right,rgb(67, 88, 208), rgb(199, 80, 194));
     background-size: cover;
     height: 100vh;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
 /* container */
@@ -47,8 +48,44 @@ body {
 
 .main-area {
     width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 #description {
     display: none;
 }
+
+.input{
+    padding: 1rem 1rem;
+    width: 25rem;
+    margin-bottom: 1rem;
+    border:none;
+    box-shadow: 0 .6rem .6rem rgba(0,0,0 ,.2);
+    display: flex;
+}
+
+textarea{
+    height: 5rem;
+    width: 20rem;
+    resize: none;
+    border-radius: 3px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+textarea:focus{
+    outline: none;
+}
+
+input:focus{
+    outline: none;
+}
+
+label{
+    color: rgb(119, 119, 119)
+}
+
