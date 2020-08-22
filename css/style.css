@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%; /* 10px */
+}
+
+body {
+    box-sizing: border-box;
+    background-image: linear-gradient(to top right,rgb(67, 88, 208), rgb(199, 80, 194));
+    background-size: cover;
+    height: 100vh;
+}
+
+/* container */
+
+.container {
+    height: 50rem;
+    width: 90rem;
+    background-color: #fff;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    border-radius: 3px;
+    box-shadow: 0 1rem 1rem rgba(0,0,0 ,.2);
+    display: flex;
+}
+
+/* side-bar */
+
+
+.side-bar {
+    width: 30%;
+    background-color: rgb(30, 191, 115) ;
+}
+
+/* main-area */
+
+.main-area {
+    width: 70%;
+}
+
+#description {
+    display: none;
+}
