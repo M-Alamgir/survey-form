@@ -5,12 +5,12 @@
 You don't know how to fork a project? [Click hear](https://help.github.com/articles/fork-a-repo/) to learn how to do it.
 
 # DEMO
-checkout live demo here:https://ourandco.github.io/survey-form/
+checkout live demo here: https://famenesesc.github.io/firstProject/
 
 ## Languages
-- HTML5
-- CSS3
+- HTML
+- CSS
 
 #### Author
-- Alamgir
+- Essam
 - Fernando
