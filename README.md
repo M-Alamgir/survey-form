@@ -14,5 +14,7 @@ checkout live demo here:https://ourandco.github.io/survey-form/
 
 
 ## Author
-- Alamgir
-- Fernando
+:bust_in_silhouette: Alamgir
+:bust_in_silhouette: Fernando
+
+
