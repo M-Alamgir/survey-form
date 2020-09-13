@@ -7,6 +7,8 @@ You don't know how to fork a project? [Click hear](https://help.github.com/artic
 # DEMO
 checkout live demo here:https://ourandco.github.io/survey-form/
 
+![](img/shot.PNG)
+
 
 ## Languages
 - HTML5
