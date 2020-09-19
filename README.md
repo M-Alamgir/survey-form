@@ -16,7 +16,7 @@ Google fonts<br/>
 
 
 ## Author
-:bust_in_silhouette: Alamgir
+:bust_in_silhouette: Alamgir<br />
 :bust_in_silhouette: Fernando
 
 
