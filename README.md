@@ -8,6 +8,13 @@ checkout live demo here:https://ourandco.github.io/survey-form/
 ### Resources
 Google fonts<br/>
 
+### Setup
+
+1. Clone this repo to your computer using `git clone`
+2. Run `npm install` to install all the dependencies.
+3. Open index.html from the dist folder on the local Live server to run the app.
+
+
 #### BEM METHADOLOGY.
 
 ## Languages
